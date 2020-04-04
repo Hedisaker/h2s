@@ -1,0 +1,14 @@
+
+.pull-left{
+	float: right !important;
+}
+
+.pull-right{
+	float: left !important;
+}
+
+.input-group-addon:first-child {
+    /* border-right: 1px solid; */
+	border-right-color: #d2d6de;
+}
+    
