@@ -80,14 +80,14 @@
     <div class="container-fluid gtco-banner-area">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 wow bounceInLeft">
+                <div class="col-md-6 ">
                     <h1> @lang('site.hometitle')
                     </h1>
                     <p> @lang('site.homebady')</p>
                     <a href="#contact">@lang('site.contact')<i class="fa fa-angle-{{ app()->getLocale() == 'ar' ? 'left' : 'right' }}" aria-hidden="true"></i></a>
                 </div>
                 <div class="col-md-6">
-                    <div class="card wow bounce" data-wow-iteration="3">
+                    <div class="card >
                         <img class="card-img-top img-fluid" src="{{ asset('h2s/images/banner-img.png') }}" alt="">
                     </div>
                 </div>
@@ -99,7 +99,7 @@
             <div class="row">
                 <div class="col-md-7">
                     <div class="cover">
-                        <div class="card wow rotateInDownLeft">
+                        <div class="card ">
                             <svg class="back-bg " width="100%" viewBox="0 0 900 700"
                                 style="position:absolute; z-index: -1">
                                 <defs>
@@ -126,7 +126,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-5 wow rotateInDownRight">
+                <div class="col-md-5 ">
                     <h2 style = "text-transform:capitalize;"> @lang('site.about')
                     </h2>
                     <p>
@@ -139,7 +139,7 @@
     <div class="container-fluid gtco-features" id="services">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 wow slideInLeft">
+                <div class="col-lg-4 ">
                     <h2 style = "text-transform:capitalize;"> @lang('site.services')</h2>
                     <p>@lang('site.servicestext') </p>
                 </div>
@@ -213,7 +213,7 @@
 
 
             </svg>
-            <div class="row wow rubberBand" data-wow-iteration="1">
+            <div class="row">
                 <div class="col-4">
                     <div class="card">
                         <div class="card-body">
@@ -248,7 +248,7 @@
             <div class="row">
             @foreach ($teams as $index=>$team)
 
-                <div class="col-md-6 col-sm-12 wow swing hvr-grow">
+                <div class="col-md-6 col-sm-12 ">
                     <div class="card text-center "><img class="card-img-top" src="{{ $team->image_path}}" alt="{{$team->name}}">
                         <div class="card-body">
                             <h5>{{$team->name}} <br />
@@ -271,7 +271,7 @@
 
             @foreach ($products as $index=>$product)
 
-                <div class="wow rotateIn">
+                <div >
                     <div class="card text-center"><img class="card-img-top " src="{{$product->image_path}}" alt="{{$product->name}}">
                         <div class="card-body text-left pr-0 pl-0">
                             <h5> {{$product->name}}</h5>
@@ -289,7 +289,7 @@
     <footer class="container-fluid" id="gtco-footer">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 wow heartBeat" id="contact">
+                <div class="col-lg-6 " id="contact">
                     <h4> @lang('site.contact') </h4>
                     <form action="{{ url('contact-us')}}" method="post"> 
 

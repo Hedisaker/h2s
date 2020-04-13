@@ -1,6 +1,114 @@
 <?php
 
 return [
+    'dashboard' => 'accueil',
+    'logout' => 'Déconnexion',
+
+    'add' => 'Ajouter',
+    'create' => 'Créer',
+    'read' => 'Lire',
+    'edit' => 'Éditer',
+    'update' => 'Éditer',
+    'delete' => 'Supprimer',
+    'search' => 'بحث',
+    'show' => 'Montrer',
+    'loading' => 'جاري التحميل',
+    'print' => 'طبع',
+
+    'confirm_delete' => 'Confirmation de la suppression',
+    'yes' => 'Oui',
+    'no' => 'Non',
+
+    'login' => 'Connexion ',
+    'remember_me' => 'Souviens moi',
+    'password' => 'mot de passe',
+    'password_confirmation' => 'Confirmation du mot de passe',
+
+    'added_successfully' => 'Ajouté avec succès',
+    'updated_successfully' => 'Mis à jour avec succés',
+    'deleted_successfully' => 'Supprimé avec succès',
+
+    'no_data_found' => 'Aucune donnée disponible',
+    'no_records' => 'Aucune donnée disponible',
+
+    'clients' => 'العملاء',
+    'client_name' => 'اسم العميل',
+    'phone' => 'téléphone',
+    'fax' => 'Fax',
+    'address' => 'Adresse',
+    'previous_orders' => 'الطلبات السابقه',
+    'orders' => 'الطلبات',
+    'add_order' => 'اضف طلب',
+    'edit_order' => 'تعديل طلب',
+
+    'users' => 'المشرفين',
+    'first_name' => 'الاسم الاول',
+    'last_name' => 'الاسم الاخير',
+    'email' => 'adresse email',
+    'image' => 'image',
+    'action' => 'action',
+    'profile' => 'الملف الشخصي',
+
+    'permissions' => 'الصلاحيات',
+
+    'categories' => 'الاقسام',
+    'all_categories' => 'كل الاقسام',
+    'name' => 'nom',
+    'description' => 'description',
+    'products_count' => 'عدد الامنتجات',
+    'related_products' => 'المنتجات المرتبطه',
+    'category' => 'القسم',
+    'show_products' => 'عرض المنتجات',
+    'created_at' => 'تم اضافته',
+
+    'products' => 'produits',
+    'product' => 'produit',
+    'quantity' => 'الكميه',
+    'total' => 'المجموع',
+    'purchase_price' => 'سعر الشراء',
+    'price' => 'السعر',
+    'sale_price' => 'سعر البيع',
+    'stock' => 'المخزن',
+    'profit_percent' => 'المكسب',
+    'suppliers'=>'الموردين',
+    'tva'=>'الاداءات',
+    'discount'=>'التخفيضات',
+    'download'=>'تحميل',
+    'pos'=>'بيع',
+    'client_order'=>'اختر العميل',
+    'online'=>'en ligne',
+    'settings'=>'paramètres',
+    'edit_settings'=>'Modifier les paramètres',
+    'company_name'=>'اسم الشركة',
+    'title' => 'titre',
+    'icon' => 'icône',
+
+  
+    'en' => [
+        'name' => 'Le nom est en anglais',
+        'description' => 'Le description est en anglais',
+        'title' => 'Le titre est en anglais',
+        'address' => 'Le adresse est en anglais',
+        'job' => 'Le travail est en anglais',
+
+    ],
+    'ar' => [
+        'name' => 'Le nom est en arabe',
+        'description' => 'Le description est en arabe',
+        'title' => 'Le titre est en arabe',
+        'address' => 'Le adresse est en arabe',
+        'job' => 'Le travail est en arabe',
+
+    ],
+    'fr' => [
+        'name' => 'Le nom est en français',
+        'description' => 'Le description est en français',
+        'title' => 'Le titre est en français',
+        'address' => 'Le adresse est en français',
+        'job' => 'Le travail est en français',
+
+    ],
+
     'home' => 'accueil',
     'homes' => 'accueil',
     'services' => 'services',
@@ -21,7 +129,6 @@ return [
     'contactinformation'=>'coordonnées',
     'name'=>'nom',
     'title'=>'Titter',
-    'email'=>'mail',
     'activeproject'=>'Projets actifs',
     'complateproject'=>'Projets achevés',
     'clients'=>'clients',
@@ -29,7 +136,14 @@ return [
     'twitterlink'=>'twitter',
     'googlepluslink'=>'google plus',
     'linkedenlink'=>'linkedin',
-    
+    'signin'=>'Se Connecter',
+    'job'=>'emploi',
+    'version'=>'version',
+    'versionnumber'=>'1.0.1',
+    'copyright'=>'droits d`auteur',
+    'allrights'=>'Tous les droits sont réservés',
+
+
 
 
 

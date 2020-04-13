@@ -34,12 +34,12 @@
                         @foreach (config('translatable.locales') as $locale)
                             <div class="form-group">
                                 <label>@lang('site.' . $locale . '.title')</label>
-                                <input type="text" name="{{ $locale }}[name]" class="form-control" value="{{ $team->name }}">
+                                <input type="text" name="{{ $locale }}[name]" class="form-control" value="{{ $team->translate($locale)->name }}">
                             </div>
 
                             <div class="form-group">
                                 <label>@lang('site.' . $locale . '.job')</label>
-                                <input type="text" name="{{ $locale }}[job]" class="form-control" value="{{ $team->job }}">
+                                <input type="text" name="{{ $locale }}[job]" class="form-control" value="{{ $team->translate($locale)->job }}">
                             </div>
                         @endforeach
 

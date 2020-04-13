@@ -36,11 +36,11 @@
 <div class="login-box">
 
     <div class="login-logo">
-        <a href="../../index2.html"><b>Admin</b>LTE</a>
+        <a href="{{url('/')}}"><b>H2S</a>
     </div><!-- end of login lgo -->
 
     <div class="login-box-body">
-        <p class="login-box-msg">Sign in to start your session</p>
+        <p class="login-box-msg">@lang('site.signin')</p>
 
         <form action="{{ route('login') }}" method="post">
             {{ csrf_field() }}

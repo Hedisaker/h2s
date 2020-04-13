@@ -93,8 +93,8 @@
         {{--<!-- Logo -->--}}
         <a href="{{ asset('dashboard') }}/index2.html" class="logo">
             {{--<!-- mini logo for sidebar mini 50x50 pixels -->--}}
-            <span class="logo-mini"><b>A</b>LT</span>
-            <span class="logo-lg"><b>Admin</b>LTE</span>
+            <span class="logo-mini"><b>H</b>2S</span>
+            <span class="logo-lg"><b>H</b>2S</span>
         </a>
 
         <nav class="navbar navbar-static-top">
@@ -110,7 +110,7 @@
                 <ul class="nav navbar-nav">
 
 
-                    {{--<!-- Notifications: style can be found in dropdown.less -->--}}
+                    <!-- {{--<!-- Notifications: style can be found in dropdown.less -->--}}
                     <li class="dropdown notifications-menu">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                             <i class="fa fa-bell-o"></i>
@@ -132,7 +132,7 @@
                                 <a href="#">View all</a>
                             </li>
                         </ul>
-                    </li>
+                    </li> -->
 
                     {{--<!-- Tasks: style can be found in dropdown.less -->--}}
                     <li class="dropdown tasks-menu">
@@ -168,7 +168,6 @@
 
                                 <p>
                                     {{ auth()->user()->first_name }} {{ auth()->user()->last_name }}
-                                    <small>Member since 2 days</small>
                                 </p>
                             </li>
 
@@ -200,11 +199,10 @@
 
     <footer class="main-footer">
         <div class="pull-right hidden-xs">
-            <b>Version</b> 2.4.0
+            <b>@lang('site.version')</b> 1.0.1
         </div>
-        <strong>Copyright &copy; 2014-2016
-            <a href="https://adminlte.io">Almsaeed Studio</a>.</strong> All rights
-        reserved.
+        <strong>@lang('site.copyright') &copy; 2020
+            <a href="">H2s</a>.@lang('site.allrights')</strong> 
     </footer>
 
 </div><!-- end of wrapper -->

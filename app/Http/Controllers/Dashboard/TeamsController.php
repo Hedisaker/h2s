@@ -95,7 +95,7 @@ class TeamsController extends Controller
 
         foreach (config('translatable.locales') as $locale) {
 
-            $rules += [$locale . '.name' => ['required', Rule::unique('team_translations', 'name')->ignore($team->id, 'product_id')]];
+            $rules += [$locale . '.name' => ['required', Rule::unique('team_translations', 'name')->ignore($team->id, 'team_id')]];
             $rules += [$locale . '.job' => 'required'];
 
         }//end of  for each
@@ -108,12 +108,7 @@ class TeamsController extends Controller
 
         if ($request->image) {
 
-            if ($team->image != 'default.png') {
-
-                Storage::disk('public_uploads')->delete('/team_images/' . $team->image);
-                    
-            }//end of if
-
+           
             Image::make($request->image)
                 ->resize(300, null, function ($constraint) {
                     $constraint->aspectRatio();

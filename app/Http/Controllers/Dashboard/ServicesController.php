@@ -118,7 +118,7 @@ class ServicesController extends Controller
         
         $service->update($request_data);
         session()->flash('success', __('site.updated_successfully'));
-        return redirect()->route('dashboard.Services.index');
+        return redirect()->route('dashboard.services.index');
 
     }//end of update
 
